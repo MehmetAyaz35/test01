@@ -35,7 +35,7 @@ jobs:
           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
           BASE_URL: ${{ secrets.BASE_URL }}
           BASE_API_URL: ${{ secrets.BASE_API_URL }}
-        run: npm run testing
+        run: npm run test
 
       - name: Save test result as artifact
         uses: actions/upload-artifact@v4
