@@ -62,6 +62,3 @@ jobs:
 
       - name: Terminate application
         run: docker stop hotelapp
-
-      - name: Show Playwright HTML report
-        run: npx playwright show-report
